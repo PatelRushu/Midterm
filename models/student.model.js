@@ -8,4 +8,4 @@ const studentSchema = new mongoose.Schema({
   updatedDate: { type: Date, default: Date.now },
 });
 
-module.exports = mongoose.model('Student', studentSchema);
+module.exports = mongoose.model('Students', studentSchema);
